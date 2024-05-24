@@ -15,7 +15,7 @@ mongoose
   .then(() => console.log("connected to database ☀ ✔"))
   .catch((err) => console.log("facing error in database connection", err));
 
-app.get("/", (req, res) => res.send("hello ! server is working fine"));
+app.get("/", (req, res) => res.send("hello ! server is working fine 🎅"));
 app.use("/api/list", listRoutes);
 
 const port = process.env.port || 5000;
