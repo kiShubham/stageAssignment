@@ -1,0 +1,21 @@
+{
+  "name": "stageassignment",
+  "version": "1.0.0",
+  "description": "You are enhancing your OTT platform to include a new feature called \"My List,\" which allows users to save their favourite movies and TV shows to a personalised list. This feature requires backend services for managing the user's list, including adding, removing, and listing saved items.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
